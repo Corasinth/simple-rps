@@ -25,3 +25,14 @@
 // ---compare user variable to computer random variable and display answer --//
 
 // --- alerts user of result ---//
+
+window.confirm("Want to play Rock Paper Scissors? \n OK or Cancel");
+
+
+if (window.confirm("Want to play Rock Paper Scissors? \n OK or Cancel") === true) {
+    window.prompt ("Please select R, P, or S")
+} else {
+    window.confirm ("you clicked cancel")
+}
+
+
