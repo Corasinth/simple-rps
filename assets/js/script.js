@@ -28,11 +28,13 @@
 
 window.confirm("Want to play Rock Paper Scissors? \n OK or Cancel");
 
-
 if (window.confirm("Want to play Rock Paper Scissors? \n OK or Cancel") === true) {
-    window.prompt ("Please select R, P, or S")
-} else {
-    window.confirm ("you clicked cancel")
+    var userChoice = window.prompt ("Please select R, P, or S")    
+        if (userChoice === "R") {
+            console.log ("R")
+        } else if (userChoice === "P") {
+            console.log ("P")
+        } else if (userChoice === "S") {
+            console.log ("S")
+        }
 }
-
-
